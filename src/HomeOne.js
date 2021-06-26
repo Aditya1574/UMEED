@@ -12,6 +12,8 @@ import HomeBlog from './components/HomeBlog';
 import CampusTour from './components/CampusTour';
 import NewsletterForm from './components/NewsletterForm';
 import Footer from './components/Footer';
+import NumberCounter from './components/NumberCounter';
+import FreeCourse from './components/FreeCourse';
 
 export default class HomeOne extends Component {
     render() {
@@ -32,7 +34,13 @@ export default class HomeOne extends Component {
 
                 {/* Course Filter */}
                 < CourseFilter />
+                
+                {/* Counter Area */}
+                <NumberCounter />
 
+                  {/* Free Course Area */}
+                <FreeCourse />
+                
                 {/* Testimonial Slider */}
                 < TestimonialSlider />
 
@@ -57,7 +65,7 @@ export default class HomeOne extends Component {
                 {/* Footer */}
                 < Footer />
 
-            </div >
+            </div>
         )
     }
 }

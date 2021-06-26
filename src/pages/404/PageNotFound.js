@@ -24,7 +24,7 @@ class PageNotFound extends Component {
                                     <div className="error-box text-center">
                                         <h1>4<span>0</span>4</h1>
                                         <h3>Page Not Found</h3>
-                                        <p>Ooops! The page you are looking for, couldn't be found.</p>
+                                        <p>Haribol! The page you are looking for, couldn't be found.</p>
                                         <Link to={process.env.PUBLIC_URL + "/"}><i className="fas fa-home"></i>Go To Homepage</Link>
                                     </div>
                                 </Col>

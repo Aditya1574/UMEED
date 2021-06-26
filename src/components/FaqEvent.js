@@ -29,7 +29,7 @@ function FaqEvent() {
             <section className="event-faq-area">
                 <Container>
                     <Row>
-                        <Col md="6">
+                        <Col md="6" sm="12">
                             <div className="event-area">
                                 <Row>
                                     <Col md="12">

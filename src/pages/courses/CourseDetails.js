@@ -447,7 +447,7 @@ function CourseDetails() {
             {/* Footer 2 */}
             <FooterTwo />
 
-        </div >
+        </div>
     )
 }
 

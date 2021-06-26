@@ -13,7 +13,7 @@ class IconBox extends Component {
                         <Row>
                             {
                                 Datas.map((data, i) => (
-                                    <Col md="4" key={i}>
+                                    <Col md="4" key={i}> {/*change this to 12 and change the data*/}
                                         <div className="full-icon-box">
                                             <div className="icon-box d-flex">
                                                 <div className={data.uniqClass}>

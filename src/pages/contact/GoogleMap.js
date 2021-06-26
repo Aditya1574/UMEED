@@ -5,13 +5,13 @@ import { Styles } from './styles/contact.js';
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class GoogleMap extends Component {
-
+// add Longitude and latutude herre
     static defaultProps = {
         center: {
-            lat: 40.696295,
-            lng: -73.997619
+            lat: 25.28437,
+            lng: 82.98108
         },
-        zoom: 11
+        zoom: 12
     };
 
     render() {
@@ -24,7 +24,7 @@ class GoogleMap extends Component {
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                     >
-                        <AnyReactComponent lat={40.696295} lng={-73.997619} text="My Marker" />
+                        <AnyReactComponent lat={25.28437} lng={82.98108} text="My Marker" />
                     </GoogleMapReact>
                 </div>
             </Styles>

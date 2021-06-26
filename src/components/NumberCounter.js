@@ -20,10 +20,10 @@ class NumberCounter extends Component {
                             <Col md="3" xs="6">
                                 <div className="counter-box">
                                     <div className="counter-icon">
-                                        <i className="las la-university"></i>
+                                        <i className="las la-university"></i> {/*change the icon as per need */}
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={1170} duration={5} delay={1.5} />+</h4>
+                                        <h4><CountUp end={1170} duration={15} delay={5} />+</h4>
                                         <p>University Courses</p>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@ class NumberCounter extends Component {
                                         <i className="las la-graduation-cap"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={2309} duration={5} delay={1.5} />+</h4>
+                                        <h4><CountUp end={2309} duration={15} delay={5} />+</h4>
                                         <p>Total Students</p>
                                     </div>
                                 </div>

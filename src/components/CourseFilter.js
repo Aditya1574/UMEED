@@ -46,7 +46,7 @@ function CourseFilter() {
                             </div>
                         </Col>
                         <Col md="12">
-                            <div className="filter-btns text-center">
+                            <div className="filter-btns text-center"> {/*change to past , present and future*/}
                                 <ul className="filter-btn-list list-unstyled list inline">
                                     <li data-target="*" className="active list-inline-item">All Courses</li>
                                     <li data-target="desi" className="list-inline-item">Web Design</li>
@@ -55,9 +55,9 @@ function CourseFilter() {
                                     <li data-target="prog" className="list-inline-item">Programming</li>
                                 </ul>
                             </div>
-                            <Row className="filter-items">
+                            <Row className="filter-items"> {/*Data comes from here*/}
                                 {
-                                    Datas.dataList.map((data, i) => (
+                                    Datas.dataList.map((data, i) => (  
                                         <Col lg="4" md="6" key={i} data-id={data.targetId}>
                                             <div className="course-item">
                                                 <Link to={process.env.PUBLIC_URL + data.courseLink}>
@@ -85,6 +85,7 @@ function CourseFilter() {
                                                         </div>
                                                         <div className="rating">
                                                             <ul className="list-unstyled list-inline">
+                                                            {/*dynamic star rendering*/}
                                                                 <li className="list-inline-item"><i className="las la-star"></i></li>
                                                                 <li className="list-inline-item"><i className="las la-star"></i></li>
                                                                 <li className="list-inline-item"><i className="las la-star"></i></li>
