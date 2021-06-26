@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import HeaderTwo from '../../components/HeaderTwo';
 import { BreadcrumbBox } from '../../components/common/Breadcrumb';
-import CourseSidebar from './components/CourseSidebar';
-import CourseItemGrid from './components/CourseItemsGrid';
+import CourseSidebar from '../events/components/CourseSidebar';
+import CourseItemGrid from '../events/components/CourseItemsGrid.js';
 import FooterTwo from '../../components/FooterTwo';
-import { Styles } from './styles/course.js';
+import { Styles } from '../events/styles/course.js';
 
 class CourseGrid extends Component {
 

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import CourseSearch from './../../courses/components/CourseSearch';
+import CourseSearch from './../../events/components/CourseSearch';
 import PriceFilter from './PriceFilter';
-import PopularCourse from './../../courses/components/PopularCourse';
-import CourseTag from './../../courses/components/CourseTag';
+import PopularCourse from './../../events/components/PopularCourse';
+import CourseTag from './../../events/components/CourseTag';
 
 class ShopSidebar extends Component {
     render() {

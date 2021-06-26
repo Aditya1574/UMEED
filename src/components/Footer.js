@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import Datas from '../data/footer/footer.json';
 import { Link } from 'react-router-dom';

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import CourseSearch from './../../events/components/CourseSearch';
-import CourseCategory from './../../events/components/CourseCategory';
-import RecentBlog from './RecentPost';
-import CourseTag from './../../events/components/CourseTag';
+import CourseSearch from './CourseSearch';
+import CoursePrice from './CoursePrice';
+import PopularCourse from './PopularCourse';
+import CourseTag from './CourseTag';
+import CourseCategory from './CourseCategory';
 
-
-class BlogSidebar extends Component {
+class CourseSidebar extends Component {
     render() {
         return (
             <div className="course-sidebar">
@@ -18,7 +18,10 @@ class BlogSidebar extends Component {
                         <CourseCategory />
                     </Col>
                     <Col md="12">
-                        <RecentBlog />
+                        <CoursePrice />
+                    </Col>
+                    <Col md="12">
+                        <PopularCourse />
                     </Col>
                     <Col md="12">
                         <CourseTag />
@@ -29,4 +32,4 @@ class BlogSidebar extends Component {
     }
 }
 
-export default BlogSidebar
+export default CourseSidebar

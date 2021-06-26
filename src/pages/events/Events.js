@@ -5,9 +5,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import HeaderTwo from '../../components/HeaderTwo';
 import { BreadcrumbBox } from '../../components/common/Breadcrumb';
 import Pagination from '../../components/Pagination';
-import CourseSidebar from '../courses/components/CourseSidebar';
+import CourseSidebar from './components/CourseSidebar';
 import FooterTwo from '../../components/FooterTwo';
-import { Styles } from './styles/event.js';
+import { Styles } from '../courses/styles/event.js';
 
 class Events extends Component {
     render() {

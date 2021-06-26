@@ -7,7 +7,7 @@ import { BreadcrumbBox } from '../../components/common/Breadcrumb';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Quantity from './components/Quantity';
-import ReviewForm from './../courses/components/ReviewForm';
+import ReviewForm from './../events/components/ReviewForm';
 import FooterTwo from '../../components/FooterTwo';
 import { Styles } from './styles/productDetails.js';
 

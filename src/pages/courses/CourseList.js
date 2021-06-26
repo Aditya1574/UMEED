@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import HeaderTwo from '../../components/HeaderTwo';
 import { BreadcrumbBox } from '../../components/common/Breadcrumb';
-import CourseSidebar from './components/CourseSidebar';
-import CourseItemList from './components/CourseItemsList';
+import CourseSidebar from '../events/components/CourseSidebar';
+import CourseItemList from '../events/components/CourseItemsList';
 import FooterTwo from '../../components/FooterTwo';
-import { Styles } from './styles/course.js';
+import { Styles } from '../events/styles/course.js';
 
 class CourseList extends Component {
 
